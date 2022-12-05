@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAVIGATION BAR</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, #95F7B1 0%, #5DBE7C 45%, #20884B 100%);
+            }
+            nav{
+                background:linear-gradient(30deg, #EBFDFC 0%, #E6F4F1 100%);;
+                padding-top: 10px;
+                height: 65px;
+                box-shadow: 0 0 50px rgba(20, 20, 20,1);
+            }
+            .nav0 {
+                list-style-type: none;
+                margin-left: 280px;
+                padding: 0;
+                margin-top: 3px;
+                margin-bottom: 10px ;
+                line-height: 50px;
+
+                height: 40px;
+            }
+            .nav1{
+                float: left;
+            }
+            .signup{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                padding-left: 380px;
+            }
+            
+            
+            label{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:30px;
+                color:black;
+                position: absolute;
+
+                margin-left: 20px;
+                margin-bottom: 40px;
+                padding: 10px 20px;
+            }
+            nav .nav0 .nav1 .nav2{
+                display: inline;
+                color: black;
+                text-decoration: none; 
+                margin-left:5px;
+                font-size: 25px;
+                padding: 10px 16px 10px 16px;
+                background-color: #5DBE7C;
+                border: 1px solid #20884B;
+                border-radius: 10px;
+                transition: 0.5s;
+            }
+            
+            
+            nav .nav0 .nav1 .nav2:hover{
+                background-color: #95F7B1;
+                color: black;
+            
+            }
+            
+            nav .nav0 .nav1 .nav2:hover{
+                border: none;
+                border-bottom: 3px solid darkgreen;
+            }
+        
+            
+            .sub-nav1{
+                display: none;
+                
+            }
+            nav .nav0 .nav1:hover .sub-nav1{
+                display: block;
+                position: absolute;
+                margin-top: 1px;
+                margin-left: 2  px ;
+            }
+            nav .nav0 li:hover .sub-nav1 ul{
+                display: block;
+                
+            }
+            nav .nav0 li:hover .sub-nav1 ul li{
+                padding: 1px;
+                width: 200px;
+                
+                
+            }
+            .sub-nav1 .nav10{
+                list-style-type: none;
+                
+            }
+            .sub-nav1 .nav10 .nav11{
+                padding: 5px 25px 10px 50px;
+            }
+            .sub-nav1 .nav10 .nav11 .nav12{
+                color: black;
+                text-decoration: none; 
+                font-size: 25px;
+                padding: 11px 35px 11px 15px;
+                background-color: #5DBE7C;
+                border: 1px solid #20884B;
+                border-radius: 10px;
+                margin-top: 2px;
+                transition: 0.5s;
+                text-align: left;
+            }
+            .sub-nav1 .nav10 .nav11 .nav12:hover{
+                background-color: #95F7B1;
+                color: black;
+                border: none;
+                border-bottom: 3px solid darkgreen;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <nav>
+            <label>JP-WEBTECH</label>
+            <ul class="nav0">
+                <li  class="nav1"><a class="nav2" href="index.html">Home</a></li>
+                
+                
+                <li class="nav1"><a class="nav2" href="" target="_self" >Portfolio</a>
+                    <div class="sub-nav1">
+                        <ul class="nav10">
+                            <li class="nav11"><a class="nav12" href="WK-1.html" target="_self" >Week 1</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-2.html" target="_self" >Week 2</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-3.html" target="_self" >Week 3</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-4.html" target="_self" >Week 4</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-5.html" target="_self" >Week 5</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-6.html" target="_self" >Week 6</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-7.html" target="_self" >Week 7</a></li>
+                            <li class="nav11"><a class="nav12" href="WK-8.html" target="_self" >Week 8</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li  class="nav1"><a class="nav2" href="shop.html" >Shop</a></li>
+                <li class="nav1"><a class="nav2" href="about.html">Feedback</a></li>
+                <li class="nav1 signup"><a class="nav2" href="signup.html">Sign Up</a></li>
+            </ul> 
+        </nav>
+        
+    </body>
+</html>

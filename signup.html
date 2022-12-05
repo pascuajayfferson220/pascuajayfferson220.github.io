@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAVIGATION BAR</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, #95F7B1 0%, #5DBE7C 45%, #20884B 100%);
+            }
+            
+            .container{
+                text-align: center;
+                margin-top: 130px;
+                margin-left: 440px;
+                border: 2px solid black;
+                width: 400px;
+                padding-top: 10px;
+                height: 400px;
+                display: block;
+                border-radius: 5px;
+                background-color: white;
+                
+            }
+            label{
+                text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 40px;
+                color :black;
+                text-decoration: underline;
+                font-weight: bolder;
+                padding-top: 20px;
+
+            }
+            input{
+                text-align: left;
+                margin-top: 30px;
+                padding: 15px 30px;
+                border: none;
+                border-bottom: 1px solid black;
+                
+                background: none;
+                color:black;
+                box-sizing: border-box;
+                outline: none;
+                text-align: center;
+                transition: 0.8;
+            }
+            .in{
+                position: relative;
+                margin-top: 10px;
+            }
+            input:hover{
+                padding: 20px 30px;
+            }
+            
+            button{
+                margin-top: 50px;
+                padding: 10px 20px;
+                background-color: #95F7B1;
+                transition: 0.5s;
+            }
+            button:hover{
+                color: white;
+            }
+            
+            a{
+                padding: 10px 20px;
+                text-decoration: none;
+                
+            }
+            a:active{
+                color:white;
+            }
+        </style>
+    </head>
+    <body >
+        <div class="container">
+            <label>SIGN UP</label>
+            <div class="in">
+                <input type="text"placeholder="Username">
+            </div>
+            <div>
+                <input  type="password" placeholder="Password">
+            </div>
+            <button><a href="index.html">Register</a></button>
+            
+        </div>
+    </body>
+</html>
